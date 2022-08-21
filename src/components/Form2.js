@@ -41,7 +41,6 @@ const Form2 = () => {
                     setData(res.data)
                     setLoading(false)
                 });
-
         };
         fetchName();
     }, [user]);
